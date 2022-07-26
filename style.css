@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.container > .title {
+  color: #025159;
+}
+
+.container>input {
+  width: 30%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.container>#wrong {
+  color: red;
+}
+
+.counter-container {
+  width: 80%;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-around;
+  margin: 3rem auto;
+}
+
+.counter-container>div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #C4EEF2;
+  color: #025159;
+}
+
+.container>button {
+  padding: 0.5em 3em;
+  border-radius: 5px;
+  color: #C4EEF2;
+  background-color: #A67458;
+}
